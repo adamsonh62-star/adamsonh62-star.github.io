@@ -2,21 +2,57 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>我的个人空间</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adamson 的个人空间</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        p { color: #666; }
-        .box { background: white; padding: 20px; border-radius: 10px; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        /* 这里是装修方案 (CSS) */
+        body {
+            background-color: #1a1a1a; /* 背景深灰色 */
+            color: #eeeeee; /* 文字浅灰色 */
+            font-family: "Microsoft YaHei", sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: #252525;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+            border: 1px solid #333;
+            max-width: 400px;
+        }
+        h1 { color: #00ffcc; margin-bottom: 10px; } /* 标题青色 */
+        p { line-height: 1.6; color: #bbb; }
+        .links a {
+            display: inline-block;
+            margin: 15px 10px;
+            padding: 10px 20px;
+            color: #1a1a1a;
+            background: #00ffcc;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .links a:hover { background: #fff; transform: scale(1.1); }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1>21歲</h1>
-        <p>長發男</p>
-        <p>愛吃肉夾饃</p>
-        <hr>
-        <p>憧憬成為吃肉仙人</p>
+
+    <div class="card">
+        <h1>這是我的看片神器</h1>
+        <p>免費看片是我的秘密武器</p>
+        <p>不要告訴別人喲</p>
+        
+        <div class="links">
+            <a href="https://github.com/adamsonh62-star">我的 GitHub</a>
+            <a href="mailto:你的邮箱">联系我</a>
+        </div>
     </div>
+
 </body>
 </html>
